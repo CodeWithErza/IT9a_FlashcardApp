@@ -66,7 +66,7 @@ include '../helpers/authenticated.php';
                                 <p class="card-text">'.$flashcard['answer'].'</p>
                                 <div class="action-buttons">
                                     <a href="../handlers/update.php?id='.$flashcard['id'].'" class="btn btn-warning btn-sm">Edit</a>
-                                    <a href="../handlers/delete.php?id='.$flashcard['id'].'" class="btn btn-danger btn-sm">Delete</a>
+                                    <a href="../handlers/delete.php?id='.$flashcard['id'].'" class="btn btn-danger btn-sm" onclick="return confirm(\'Are you sure you want to delete this flashcard?\')">Delete</a>
                                 </div>
                             </div>
                         </div>  
