@@ -42,7 +42,7 @@ include '../helpers/authenticated.php';
             <img src="../assets/logo.png" alt="Logo" class="img-fluid mb-4">
         </div>
     </header>
-    <div class="container mt-5">
+    <div class="container">
         <h4 class="text-center text-light fw-bold" style="margin-bottom: 20px; text-shadow: #2e2c31 2px 2px 2px;">"Flip and let the moonlight guide you, one card at a time."</h4>
         <div class="text-center mb-4">
             <a href="add_flashcard.php" class="btn btn-custom">Make Flashcards</a>
@@ -78,7 +78,7 @@ include '../helpers/authenticated.php';
             <div class=\"container d-flex justify-content-center\">
                 <div class=\"col text-center\">
                     <div class=\"border rounded p-3 my-5\" style=\"margin-top: 80vh;\"> 
-                        <p class=\"text-muted\">No flashcards available. Add some!</p>
+                        <p class=\"text-light\">No flashcards available. Add some!</p>
                     </div>
                 </div>
             </div>";
